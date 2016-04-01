@@ -70,6 +70,9 @@ Hammer Time
 Zombies
   ps aux | awk '"[Zz]" ~ $8 { printf("%s, PID = %d\n", $8, $2); }'
 
+Overwrite previous line
+  Append carriage return "\r" without a new line
+
 Colors (python)
     class unixColors:
         GREY    = '\033[90m'
