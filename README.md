@@ -72,6 +72,7 @@ Zombies
 
 Overwrite previous line
   Append carriage return "\r" without a new line
+  OR wipe out entire line with "\x1b[2K\r"
 
 Colors (python)
     class unixColors:
