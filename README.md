@@ -88,11 +88,11 @@ Colors (python)
 
       BLACK = '\033[30m'
       D_RED = '\033[31m'
-      D_GREEN = '\033[92m'
-      D_YELLOW = '\033[93m'
-      D_BLUE = '\033[94m'
-      D_MAGENTA = '\033[95m'
-      D_CYAN = '\033[96m'
+      D_GREEN = '\033[32m'
+      D_YELLOW = '\033[33m'
+      D_BLUE = '\033[34m'
+      D_MAGENTA = '\033[35m'
+      D_CYAN = '\033[36m'
       
       B_GREY = '\033[100m'
       B_RED = '\033[101m'
