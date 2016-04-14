@@ -75,26 +75,35 @@ Overwrite previous line
   OR wipe out entire line with "\x1b[2K\r"
 
 Colors (python)
-    class unixColors:
-        GREY    = '\033[90m'
-        RED     = '\033[91m'
-        GREEN   = '\033[92m'
-        YELLOW  = '\033[93m'
-        BLUE    = '\033[94m'
-        MAGENTA = '\033[95m'
-        CYAN    = '\033[96m'
-        END     = '\033[0m'
+  class UnixColors:
+      END = '\033[0m'
 
-        B_GREY    = '\033[100m'
-        B_RED     = '\033[101m'
-        B_GREEN   = '\033[102m'
-        B_YELLOW  = '\033[103m'
-        B_BLUE    = '\033[104m'
-        B_MAGENTA = '\033[105m'
-        B_CYAN    = '\033[106m'
+      GREY = '\033[90m'
+      RED = '\033[91m'
+      GREEN = '\033[92m'
+      YELLOW = '\033[93m'
+      BLUE = '\033[94m'
+      MAGENTA = '\033[95m'
+      CYAN = '\033[96m'
 
-        BOLD      = '\033[1m'
-        UNDERLINE = '\033[4m'
+      BLACK = '\033[30m'
+      D_RED = '\033[31m'
+      D_GREEN = '\033[92m'
+      D_YELLOW = '\033[93m'
+      D_BLUE = '\033[94m'
+      D_MAGENTA = '\033[95m'
+      D_CYAN = '\033[96m'
+      
+      B_GREY = '\033[100m'
+      B_RED = '\033[101m'
+      B_GREEN = '\033[102m'
+      B_YELLOW = '\033[103m'
+      B_BLUE = '\033[104m'
+      B_MAGENTA = '\033[105m'
+      B_CYAN = '\033[106m'
+
+      BOLD = '\033[1m'
+      UNDERLINE = '\033[4m'
 
 
 ====================
